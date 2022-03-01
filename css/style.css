@@ -34,7 +34,8 @@ main {
         margin: 0 auto; }
         main .section__login .section__login--form .form__box form {
           display: flex;
-          flex-direction: column; }
+          flex-direction: column;
+          position: relative; }
           main .section__login .section__login--form .form__box form .form__titulo h1 {
             color: #5959e6;
             font-weight: 700;
@@ -62,6 +63,22 @@ main {
             color: #929292; }
           main .section__login .section__login--form .form__box form p {
             font-weight: 600; }
+          main .section__login .section__login--form .form__box form .btn__icon--1 {
+            width: 50px;
+            border: none;
+            outline: none;
+            background: #fff;
+            position: absolute;
+            top: 45%;
+            left: 85%; }
+          main .section__login .section__login--form .form__box form .btn__icon--2 {
+            width: 50px;
+            border: none;
+            outline: none;
+            background: #fff;
+            position: absolute;
+            top: 59%;
+            left: 85%; }
 
 @media (max-width: 889px) {
   main .section__login .tela__membro {

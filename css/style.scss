@@ -47,6 +47,7 @@ main{
                 form{
                     display: flex;
                     flex-direction: column;
+                    position: relative;
 
                     .form__titulo h1{
                         color: rgb(89, 89, 230);
@@ -83,6 +84,28 @@ main{
 
                     p{
                         font-weight: 600;
+                    }
+
+                    .btn__icon--1{
+                        width: 50px;
+                        border: none;
+                        outline: none;
+                        background: #fff;
+                        position: absolute;
+                        top: 45%;
+                        left: 85%;
+                        
+                    }
+
+                    .btn__icon--2{
+                        width: 50px;
+                        border: none;
+                        outline: none;
+                        background: #fff;
+                        position: absolute;
+                        top: 59%;
+                        left: 85%;
+                        
                     }
                 }
             }
