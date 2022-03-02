@@ -93,9 +93,11 @@ main {
   main .section__login .login__text p {
     font-size: 12px; } }
 @media (max-width: 615px) {
-  main .section__login {
-    margin: 0 50%; }
-    main .section__login .tela__membro {
-      display: none; } }
+  main {
+    padding: 0; }
+    main .section__login {
+      margin: 0 50%; }
+      main .section__login .tela__membro {
+        display: none; } }
 
 /*# sourceMappingURL=style.css.map */
