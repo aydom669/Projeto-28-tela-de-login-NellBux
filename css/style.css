@@ -98,6 +98,10 @@ main {
     main .section__login {
       margin: 0 50%; }
       main .section__login .tela__membro {
-        display: none; } }
+        display: none; }
+    main form .btn__icon--1 {
+      transform: translate(0%, -30%); }
+    main form .btn__icon--2 {
+      transform: translate(0%, -17%); } }
 
 /*# sourceMappingURL=style.css.map */

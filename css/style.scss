@@ -163,5 +163,20 @@ main{
             display: none;
         }
     }
+
+    form{
+
+        .btn__icon--1{
+           
+            transform: translate(-0%, -30%);
+            
+        }
+
+        .btn__icon--2{
+           
+            transform: translate(0%, -17%);
+            
+        }
+    }
   }
 }
