@@ -17,15 +17,19 @@ main{
             display: flex;
             justify-content: center;
             align-items: center;
-            background: rgb(87, 153, 197);
+            background-image: url("img/fundo.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
             position: relative;
 
-            .tela__membro--img img{
+            .tela__membro--icon i{
                 position: absolute;
                 top: 0;
                 right: 10px;
-                width: 80px;
                 padding: 10px;
+                font-size: 50px;
+                color: #fff;
                 
             }
         }

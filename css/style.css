@@ -15,14 +15,18 @@ main {
       display: flex;
       justify-content: center;
       align-items: center;
-      background: #5799c5;
+      background-image: url("img/fundo.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
       position: relative; }
-      main .section__login .tela__membro .tela__membro--img img {
+      main .section__login .tela__membro .tela__membro--icon i {
         position: absolute;
         top: 0;
         right: 10px;
-        width: 80px;
-        padding: 10px; }
+        padding: 10px;
+        font-size: 50px;
+        color: #fff; }
     main .section__login .section__login--form {
       width: 50%;
       min-height: 70vh;
