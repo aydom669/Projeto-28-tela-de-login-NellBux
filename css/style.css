@@ -20,13 +20,12 @@ main {
       background-repeat: no-repeat;
       background-position: center;
       position: relative; }
-      main .section__login .tela__membro .tela__membro--icon i {
+      main .section__login .tela__membro .tela__membro--img img {
         position: absolute;
         top: 0;
         right: 10px;
-        padding: 10px;
-        font-size: 50px;
-        color: #fff; }
+        width: 80px;
+        padding: 10px; }
     main .section__login .section__login--form {
       width: 50%;
       min-height: 70vh;

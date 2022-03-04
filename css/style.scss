@@ -23,13 +23,12 @@ main{
             background-position: center;
             position: relative;
 
-            .tela__membro--icon i{
+            .tela__membro--img img{
                 position: absolute;
                 top: 0;
                 right: 10px;
+                width: 80px;
                 padding: 10px;
-                font-size: 50px;
-                color: #fff;
                 
             }
         }
